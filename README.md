@@ -2,6 +2,10 @@ Our project utilizes deep CNNs to extract features from skin cancer images on Ka
 
 
 Model:https://github.com/Shakil526563/Skin-Cancer-Detection-using-traditional-machines-learning-algorithms-
+
+Video uploaded in LinkedIn:https://www.linkedin.com/posts/shakil-rana-a1b383256_skincancerdetection-deeplearning-machinelearning-activity-7160571888283394048-hMBU?utm_source=share&utm_medium=member_desktop
+
+
 Display:
 ![image](https://github.com/Shakil526563/Django-Skin-Cancer-Detection-Project/assets/100131954/715f71c5-ea93-441a-a13c-be3e23d07dee)
 
