@@ -1,0 +1,23 @@
+{% extends 'headerPage.html' %}
+
+{% block content%}
+
+    <h2 style="text-align: center;">Predicted Score</h2>
+    <h1 style="text-align: center; background-color:DodgerBlue;">0 Means Benign and 1 means Malignant</h1>
+
+    <br>
+   
+    <form method="post" enctype="multipart/form-data" action="predictImage">
+        {% csrf_token %}
+        <div style="text-align: center;">
+            <label for="fname">Upload Image File Here:</label>
+            <input name="filePath" type="file"><br><br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <p style="text-align: center;">Predicted Score: {{ predictedScore }}</p>
+    <img src="{{ filePathName }}" alt="imagename" style="display: block; margin: 0 auto;">
+    {{ filePathName }}
+
+{% endblock %}
