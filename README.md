@@ -1,5 +1,7 @@
 
 Updated code Link:https://github.com/Shakil526563/Skin-cancer-detection
+
+
 updated video:
 
 https://github.com/user-attachments/assets/375f74c7-21d8-4d00-ab55-759e78812548
